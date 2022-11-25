@@ -13,6 +13,7 @@
 		6052682A28E6192B0003F74C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6052682928E6192B0003F74C /* Preview Assets.xcassets */; };
 		6052683128E619DD0003F74C /* Lists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6052683028E619DD0003F74C /* Lists.swift */; };
 		60B9028C28E7518F00F7F476 /* ListsCRUD.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60B9028B28E7518F00F7F476 /* ListsCRUD.swift */; };
+		6C318DFA29314AB900E36253 /* SeparateStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C318DF929314AB900E36253 /* SeparateStyle.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		6052682928E6192B0003F74C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		6052683028E619DD0003F74C /* Lists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Lists.swift; sourceTree = "<group>"; };
 		60B9028B28E7518F00F7F476 /* ListsCRUD.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListsCRUD.swift; sourceTree = "<group>"; };
+		6C318DF929314AB900E36253 /* SeparateStyle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeparateStyle.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +63,7 @@
 				6052682828E6192B0003F74C /* Preview Content */,
 				6052683028E619DD0003F74C /* Lists.swift */,
 				60B9028B28E7518F00F7F476 /* ListsCRUD.swift */,
+				6C318DF929314AB900E36253 /* SeparateStyle.swift */,
 			);
 			path = CoockBookSwiftUI;
 			sourceTree = "<group>";
@@ -143,6 +146,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C318DFA29314AB900E36253 /* SeparateStyle.swift in Sources */,
 				6052682528E619260003F74C /* ContentView.swift in Sources */,
 				6052682328E619260003F74C /* CoockBookSwiftUIApp.swift in Sources */,
 				6052683128E619DD0003F74C /* Lists.swift in Sources */,
