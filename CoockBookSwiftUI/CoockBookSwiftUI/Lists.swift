@@ -38,8 +38,8 @@ struct Lists: View {
         */
         
         List(zoo) { animal in
-            Text(animal.name)
-        }
+            Text(animal.name).background(Color.green)
+        }.listRowSeparator(.visible)
         
     }
     

@@ -61,7 +61,6 @@ struct ListsCRUD: View {
                     .toolbar {
                         EditButton()
                     }
-                
             }.padding()
         }
     }
