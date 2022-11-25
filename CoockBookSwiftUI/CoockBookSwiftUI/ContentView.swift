@@ -20,6 +20,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Lists", systemImage: "list.dash")
                 }
+            
+            SimpleMap()
+                .tabItem {
+                    Label("Map", systemImage: "map")
+                }
         }
     }
 }
