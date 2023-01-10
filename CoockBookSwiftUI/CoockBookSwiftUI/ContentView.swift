@@ -25,6 +25,11 @@ struct ContentView: View {
                 .tabItem {
                     Label("Map", systemImage: "map")
                 }
+            
+            CustomAnnotation()
+                .tabItem {
+                    Label("Map", systemImage: "map.fill")
+                }
         }
     }
 }
