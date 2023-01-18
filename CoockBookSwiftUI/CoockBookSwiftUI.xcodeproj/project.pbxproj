@@ -17,6 +17,8 @@
 		6C318DFC29314EB000E36253 /* GroupItemsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C318DFB29314EB000E36253 /* GroupItemsList.swift */; };
 		6C318DFE293150A300E36253 /* SimpleMap.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C318DFD293150A300E36253 /* SimpleMap.swift */; };
 		6C4D41D3296E064B005F9EA6 /* CustomAnnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C4D41D2296E064B005F9EA6 /* CustomAnnotation.swift */; };
+		6C960282297877340007B034 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C960281297877340007B034 /* DetailView.swift */; };
+		6C960284297877620007B034 /* NavigationViewButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6C960283297877620007B034 /* NavigationViewButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		6C318DFB29314EB000E36253 /* GroupItemsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupItemsList.swift; sourceTree = "<group>"; };
 		6C318DFD293150A300E36253 /* SimpleMap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpleMap.swift; sourceTree = "<group>"; };
 		6C4D41D2296E064B005F9EA6 /* CustomAnnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAnnotation.swift; sourceTree = "<group>"; };
+		6C960281297877340007B034 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		6C960283297877620007B034 /* NavigationViewButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationViewButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,7 @@
 		6052682128E619260003F74C /* CoockBookSwiftUI */ = {
 			isa = PBXGroup;
 			children = (
+				6C960280297877160007B034 /* NavigationAndNavBar */,
 				6052682228E619260003F74C /* CoockBookSwiftUIApp.swift */,
 				6052682428E619260003F74C /* ContentView.swift */,
 				6052682628E6192B0003F74C /* Assets.xcassets */,
@@ -83,6 +88,15 @@
 				6052682928E6192B0003F74C /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6C960280297877160007B034 /* NavigationAndNavBar */ = {
+			isa = PBXGroup;
+			children = (
+				6C960281297877340007B034 /* DetailView.swift */,
+				6C960283297877620007B034 /* NavigationViewButton.swift */,
+			);
+			path = NavigationAndNavBar;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -156,6 +170,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				6C318DFA29314AB900E36253 /* SeparateStyle.swift in Sources */,
+				6C960282297877340007B034 /* DetailView.swift in Sources */,
+				6C960284297877620007B034 /* NavigationViewButton.swift in Sources */,
 				6052682528E619260003F74C /* ContentView.swift in Sources */,
 				6052682328E619260003F74C /* CoockBookSwiftUIApp.swift in Sources */,
 				6C318DFE293150A300E36253 /* SimpleMap.swift in Sources */,

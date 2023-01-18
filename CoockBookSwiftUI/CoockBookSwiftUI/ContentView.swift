@@ -11,9 +11,9 @@ struct ContentView: View {
     var body: some View {
         TabView {
             
-            ListsCRUD()
+            NavigationViewButton()
                 .tabItem {
-                    Label("TASKS", systemImage: "text.badge.checkmark")
+                    Label("NavigationView", systemImage: "arrow.left")
                 }
             
             Lists()
